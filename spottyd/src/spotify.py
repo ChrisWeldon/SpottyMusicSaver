@@ -25,7 +25,11 @@ class SpotifyMiddleware(commands.Cog):
         #    add_to_database_and_playlist(message)
 
     @commands.command()
-    async def set_channel(self, ctx, *, member: discord.Member = None):
+    async def set_channel(self, ctx, *, member):
         """Sets as the music recommendation channel"""
         # TODO
         await ctx.send(f"{ctx.channel} set as music recs channel!")
+
+    @commands.command()
+    async def set_api(self, ctx, *, member):
+        await ctx.send(f"API key set")
