@@ -30,3 +30,5 @@ $ docker-compose up
 // Then when done
 $ docker-compose down spotty
 ```
+
+Put all code in `bot.py`
