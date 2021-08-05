@@ -26,7 +26,7 @@ $ docker-compose up --build
 ```
 $ docker-compose up
 // OR to run in detached mode
-$ docker-compose up
+$ docker-compose up -d
 // Then when done
 $ docker-compose down spotty
 ```
