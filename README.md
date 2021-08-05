@@ -11,7 +11,6 @@ $ git clone https://github.com/ChrisWeldon/SpottyMusicSaver.git
 ```
 $ touch SpottyMusicSaver/spottyd/.env
 $ echo  DISCORD_TOKEN="<The Bots token ID from Discord portal>"
-$ echo  DISCORD_GUILD="<Server name>"
 ```
 
 2. Build the container with the docker images
