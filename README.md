@@ -30,4 +30,4 @@ $ docker-compose up -d
 $ docker-compose down spotty
 ```
 
-Put all code in `bot.py`
+Put all code in `src`, check TODO's to see what can be done.
