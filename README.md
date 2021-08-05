@@ -1,5 +1,4 @@
 ## Installation
-
 These instructions require you to have Docker installed, and have a discord developer portal with your developer bot.
 
 ```
