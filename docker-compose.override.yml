@@ -22,3 +22,7 @@ services:
   - ./init.sql:/data/application/init.sql
   - mysql:/var/lib/mysql
   - mysql_config:/etc/mysql
+
+volumes:
+  mysql:
+  mysql_config:
