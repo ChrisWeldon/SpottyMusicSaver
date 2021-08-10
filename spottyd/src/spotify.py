@@ -8,7 +8,7 @@ class SpotifyMiddleware(commands.Cog):
 
     @commands.Cog.listener('on_ready')
     async def on_ready(self):
-        """ Initializes the Database and the Spotify API"""
+        """ Initialize the Spotify API"""
 
         print(f'{self.bot.user.name} has connected to Discord with SpotifyMiddleware!')
         for guild in self.bot.guilds:
@@ -25,7 +25,7 @@ class SpotifyMiddleware(commands.Cog):
         #    add_to_database_and_playlist(message)
 
     @commands.command()
-    async def set_channel(self, ctx, *, member):
+    async def set_channel(self, ctx):
         """Sets as the music recommendation channel"""
         # TODO
         await ctx.send(f"{ctx.channel} set as music recs channel!")
